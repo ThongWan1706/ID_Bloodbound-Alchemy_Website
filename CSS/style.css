@@ -1,0 +1,113 @@
+/* General */
+body {
+  margin: 0;
+  background-color: #d2a7a7;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #fffaf4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 8%;
+}
+
+/* Container for the logo and text */
+.logo-container,
+.minigame {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 80px;
+  height: auto;
+  display: block;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 60px;
+  font-family: "Kings", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #e61414;
+  display: flex;
+
+}
+
+button{
+    display: inline-block;
+    background-color: #e61414;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: medium;
+}
+
+/* Navigation */
+.navlist {
+  list-style: none;
+  display: flex;
+  justify-content: center; 
+  gap: 35px;
+  margin: 0;
+  padding: 15px 0;         
+  background-color: #460d0d; 
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navlist li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: larger;
+  position: relative;
+  transition: color 0.3s ease;
+  align-items: center;
+}
+
+.navlist li a:hover {
+  color: #b87333;
+}
+
+
+/* --- RESPONSIVE ADJUSTMENTS --- */
+@media (max-width: 496px) {
+  header {
+    flex-direction: column; 
+    align-items: center;    
+    padding: 15px 5%;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+
+  .logo-text {
+    font-size: 40px;
+  }
+
+  .logo-container, .minigame {
+    align-items: center;
+    gap: 20px;
+  }
+
+  .navlist {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+    
+  .logo img {
+    width: 100px;
+  }
+  
+}
