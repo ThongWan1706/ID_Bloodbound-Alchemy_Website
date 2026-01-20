@@ -18,7 +18,7 @@ header {
 
 /* Container for the logo and text */
 .logo-container,
-.minigame {
+.minigame, .listofgames {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -55,6 +55,12 @@ a {
   color: white;
 }
 
+/* All h1 - h6 and p styling */
+h1 {
+  color: rgb(247, 44, 44);
+  text-align: center;
+  font-size: 50px;
+}
 
 /* Navigation */
 .navlist {
@@ -70,7 +76,7 @@ a {
   font-style: normal;
 }
 
-.navlist li a {
+.navlist li a, .communitynav li a {
   text-decoration: none;
   color: #ffffff;
   font-size: larger;
@@ -79,13 +85,10 @@ a {
   align-items: center;
 }
 
-.navlist li a:hover {
+.navlist li a:hover, .communitynav li a:hover {
   color: #b87333;
 }
 
-h1 {
-  color: rgb(247, 44, 44);
-}
 
 /* Mini Game */
 .lab-wrapper {
@@ -162,6 +165,108 @@ h1 {
 }
 
 #reset-btn:hover { background: #5a4470; }
+
+/* Discussion Page */
+.playedgames {
+  margin: 1% 5% 1% 5%;
+}
+
+.recentgame{
+  margin-left: 3%;
+}
+
+.box1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  align-items: start;
+  border: 0.1px solid #ffffff;
+  border-radius: 10px;
+}
+
+
+.headerdescription{
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+}
+
+.subheader {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.listofgames {
+  background: rgba(0, 0, 0, 0.2); 
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+.game-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.game-text{
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.subtext {
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.game-img {
+  width: 30px;
+  height: auto;
+  display: block;
+}
+
+.search-bar {
+  width: 80%;
+  background: #101822;
+  border: 1px solid #000;
+  color: white;
+  padding: 2%;
+  border-radius: 3px;
+}
+
+.activity-feed {
+    margin-top: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+}
+
+.feed-tabs {
+    border-bottom: 2px solid #2a475e;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 15px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.communitynav {
+  list-style: none;
+  display: flex;
+  justify-content: center; 
+  gap: 35px;
+  margin: 0;
+  padding: 15px 0;         
+  background-color: #e69292; 
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 1% 5% 1% 5%;
+}
+
+
 
 
 /* --- RESPONSIVE ADJUSTMENTS --- */
