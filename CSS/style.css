@@ -55,15 +55,6 @@ header {
   display: flex;
 }
 
-.button-text {
-  display: inline-block;
-  background-color: #e61414;
-  padding: 10px 20px;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-  font-size: medium;
-}
-
 /* All links for the pages */
 a {
   text-decoration: none;
@@ -664,7 +655,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-.cartbutton, .seemorebutton {
+.cartbutton, .seemorebutton, .minigamebutton {
   display: inline-block;
   background-color: #e61414;
   color: #ffffff;
@@ -681,7 +672,7 @@ h2 {
   border-radius: 5px;
 }
 
-.cartbutton:hover, .seemorebutton:hover {
+.cartbutton:hover, .seemorebutton:hover, .minigamebutton:hover {
   background-color: #000000;
   color: #e61414;
   border: 1px solid #e61414;
@@ -710,8 +701,7 @@ h2 {
     font-size: 24px;
   }
 
-  .logo-container,
-  .minigame {
+  .logo-container {
     width: 100%;
     justify-content: center;
   }
