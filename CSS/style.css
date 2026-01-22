@@ -655,7 +655,7 @@ h2 {
   margin-bottom: 30px;
 }
 
-.cartbutton, .seemorebutton, .minigamebutton {
+.cartbutton, .seemorebutton, .minigamebutton, .addtocartbutton {
   display: inline-block;
   background-color: #e61414;
   color: #ffffff;
@@ -672,12 +672,86 @@ h2 {
   border-radius: 5px;
 }
 
-.cartbutton:hover, .seemorebutton:hover, .minigamebutton:hover {
+.cartbutton:hover, .seemorebutton:hover, .minigamebutton:hover, .addtocartbutton:hover {
   background-color: #000000;
   color: #e61414;
   border: 1px solid #e61414;
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(230, 20, 20, 0.4);
+}
+
+/* Product and review individual pages buttons */
+.returnbutton {
+  grid-column: 1; 
+  grid-row: 1;
+  margin: 0 0 10px 0;
+  padding: 0;
+  text-align: left;
+  color: #ffffff;
+  display: block;
+  font-size: 60px;
+}
+
+
+/* --- Main product detail section --- */
+.product-detail-main-section {
+  display: grid;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1%;
+  gap: 2%;
+}
+
+.sketchfab-embed-wrapper {
+  grid-column: 1;
+  grid-row: 2;
+  margin: 0;
+}
+
+.product-summary {
+  grid-column: 2;
+  grid-row: 1 / span 2; 
+  padding-left: 10px;
+  text-align: left;
+}
+
+.product-summary h2 {
+  margin-top: 15%;
+  text-align: left;
+  color: rgb(203, 35, 35);
+  font-size: 40px;
+}
+
+.description-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    min-height: 150px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.price {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.product-summary {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.add-to-cart {
+  padding: 15px 30px;
+  background-color: #ccc; 
+  border: none;
+  width: 100%; 
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s;
 }
 
 /* --- Mobile Responsive --- */
@@ -869,5 +943,47 @@ h2 {
 
   .productssection {
     grid-template-columns: 1fr;
+  }
+
+  .product-detail-main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5%;
+    gap: 15px;
+  }
+
+  .returnbutton {
+    align-self: flex-start;
+    font-size: 40px;
+    margin: 10px 0;
+  }
+
+  .sketchfab-embed-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sketchfab-embed-wrapper iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+
+  .product-summary {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .product-summary h2 {
+    margin-top: 5%;
+    text-align: left;
+    font-size: 28px;
+  }
+
+  .description-box {
+    width: 100%;
+    box-sizing: border-box;
   }
 }
