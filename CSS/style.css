@@ -754,6 +754,118 @@ h2 {
   transition: background-color 0.3s;
 }
 
+/* Cart Page Styling */
+.cart-page-content {
+    max-width: 900px;
+    margin: 40px auto; 
+    padding: 0 5%;
+    gap: 25px; 
+}
+
+.cart-header {
+    text-align: left;
+    border-bottom: 2px solid #e61414;
+    padding-bottom: 15px;
+}
+
+/* --- Cart List Styling --- */
+.cart-items-list {
+    border: 1px solid #460d0d;
+    border-radius: 8px;
+    background-color: #1a1a1a;
+    padding: 20px;
+}
+
+.cart-item {
+    display: grid;
+    grid-template-columns: 2fr 1fr 100px;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #290101;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.item-details {
+    font-family: "Quintessential", serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1.3em;
+}
+
+.item-subtotal {
+    font-weight: 700;
+    color: #e61414;
+    text-align: right;
+    font-size: 1.2em;
+    letter-spacing: 0.5px;
+}
+
+.cart-summary-box {
+    border: 1px solid #e61414;
+    border-radius: 12px;
+    padding: 30px;
+    background: linear-gradient(145deg, #290101, #1a0101);
+    color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 15px rgba(230, 20, 20, 0.1);
+}
+
+.summary-line {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    font-family: "Quintessential", serif;
+}
+
+.grand-total {
+    border-top: 1px solid #e61414;
+    margin-top: 15px;
+    padding-top: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #e61414;
+}
+
+/* --- Buttons --- */
+.remove-button {
+    background-color: transparent;
+    color: #ff4d4d;
+    border: 1px solid #ff4d4d;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    justify-self: end;
+}
+
+.remove-button:hover {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.checkout-button {
+    width: 100%;
+    background-color: #e61414;
+    color: white;
+    border: 2px solid #e61414;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.checkout-button:hover {
+    background-color: transparent;
+    color: #e61414;
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(230, 20, 20, 0.4);
+}
+
 /* --- Mobile Responsive --- */
 @media (max-width: 496px) {
   header {
@@ -985,5 +1097,10 @@ h2 {
   .description-box {
     width: 100%;
     box-sizing: border-box;
+  }
+
+  .checkout-button{
+    width: 60%;
+    align-self: center;
   }
 }
