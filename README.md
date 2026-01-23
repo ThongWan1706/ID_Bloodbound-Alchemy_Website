@@ -73,12 +73,35 @@ The features and structure of the pages for The Blood Brew Studio website includ
 - The page will show the form where user need to fill up their name, email address, a checkbox on whether the user need shipping of product and their delivery address
 - At the side of the form there is also the list that shows the order summary which calculate the grand total of the product that included GST and Shipping Fee
 
+6. Discussion Page
+- The page includes on the community activities, it can also served as a platform where users can see reviews of players that had experienced the game.
+- The user can also see people's comments on how to achieve certain story endings or certain potion brewing combinations as the game has a lot of story endings, which can be determined by the choices made by the players in the game. The players can discuss different views regarding on the story and share their experiences there as well.
 
+7. Shop For Games Page
+- The page focus on the games that are being developed by the company and upcoming games.
+- A game is being presented in a box which includes the name of the game, the app icon of the games and Call to Action buttons that the user can click in, and it will bring the user to the respective platforms that the user can downnload the game.
+- While the game is being teased out, the Call to Action buttons are being replaced to the "Upcoming" text.
 
+8. Contact Page
+- This page is designed for communication, which includes of sending feedbacks, questions that the customers would want to ask and served as a reporting platform wherever they face glitches or bugs in the website or the game.
+- The page also includes a visual image so that the page wouldn't look too simple and plain
+- The customers will need to subbmit the form including fields of:
+    - Name (Required)
+    - Contact Number
+    - Email (Required)
+    - List of checkboxs where the user can choose for reasoning of the form
+    - Comments (Text area)
+
+9. Mini Game Page
+- The page will be able to access the Mini Game Page by clicking the Mini Game button that is located at the top right of the webpage.
+- The page allows the user to play a potion mixing game where user can drag into 2 materials into the cauldron and see what result they can get.
+- Various combinations of materials have different results.
+- After getting the result, the user can replay the game by clicking the "Clear the cauldron" button that is located at the bottom of the cauldron.
+- This not only add some fun interactions for the user, this mini game can be changed occasionately to tease some upcoming gameplay that would happen to the new upcoming game.
 
 
 <h2>Features Left to Implement</h2>
-I was thinking to implement a like list where the client can "like" a product
+I was thinking to implement a like list where the user can "like" a product
 
 
 <h1>Technologies Used</h1>
