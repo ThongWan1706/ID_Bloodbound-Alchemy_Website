@@ -113,8 +113,11 @@ The setting up of API I used the RestDB which are used to store the upcoming ord
 
 <h2>Assistive AI</h1>
 The relevant screenshots of assistive AI are being included in the Images folder ("/Images/AssistiveAIpictures).
+
 1. Cart API: Google Gemini was used to help with the implementation of the Cart API.
+
 2. Form API: Google Gemini was used to help with the implementation of the Form API.
+
 3. Lottie Animation: Google Gemini was used to help with the implemention of the animation.
 
 
