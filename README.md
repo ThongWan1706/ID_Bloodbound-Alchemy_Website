@@ -183,4 +183,5 @@ Phone: https://www.pinterest.com/pin/422281208176306/
 
 <h1>Acknowledgements</h1>
 - The layout for the Discussion Page was took reference with the Steam Community Main Page (https://steamcommunity.com/)
+
 - The Among the Innocent logo, we uses the picrew to help create the logo for it (https://picrew.me/en/image_maker/144139)
