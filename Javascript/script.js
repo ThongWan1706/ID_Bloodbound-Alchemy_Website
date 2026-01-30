@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (miniGameButton && loadingScreen) {
     miniGameButton.addEventListener("click", function (e) {
       e.preventDefault();
-      const targetUrl = this.getAttribute("href");
+      const targetUrl = "selection.html"; 
 
       loadingScreen.style.display = "flex";
 
