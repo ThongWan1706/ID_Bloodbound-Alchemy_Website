@@ -574,10 +574,11 @@ h2 {
 }
 
 .gamepicture {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  margin-bottom: 20px;
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
 }
 
 .download-container {
