@@ -186,8 +186,6 @@ Female Wizard: https://www.pinterest.com/pin/12947917675659609/
 
 Male Wizard: https://www.pinterest.com/pin/281543726368466/ 
 
-Bongo Cat: https://www.pinterest.com/pin/459507968229552967/
-
 
 <h1>Acknowledgements</h1>
 
