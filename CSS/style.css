@@ -31,8 +31,18 @@ header {
 }
 
 /* Container for the logo and text */
-.logo-container,
-.minigame,
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.minigame {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: end;
+}
+
 .listofgames {
   display: flex;
   align-items: center;
