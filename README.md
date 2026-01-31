@@ -123,7 +123,7 @@ Contact form:
 1. Go to the "Contact Us" page
 2. Try to submit the empty form and verify that an error message about the required fields appears.
 3. Try to submit the form with all inputs valid and verify that a success message appears.
-4. After submitting, it should lead back to the homepage as the form API is empty and the form is not sent to the API.
+4. After submitting, it should lead back to the homepage.
 
 Individual Merchandise Page:
 
