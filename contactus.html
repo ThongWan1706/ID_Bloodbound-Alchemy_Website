@@ -35,6 +35,7 @@
     ></script>
 
     <script src="Javascript/script.js"></script>
+    <script src="Javascript/form.js"></script>
   </head>
   <body>
     <!-- Mini Game Loading Animation -->
@@ -109,7 +110,7 @@
       </div>
 
       <div class="contact-form-container">
-        <form action=" " method="POST" class="contact-form">
+        <form id="contact-form" class="contact-form">
           <div class="form-row">
             <div class="form-group">
               <label for="name">Name</label>
@@ -130,14 +131,14 @@
             <label>Reason for Contact (Select all that apply):</label>
             <div class="checkbox-group">
               <label
-                ><input type="checkbox" name="reason" value="bug" />
+                ><input type="checkbox" name="reason" value="Bugs" />
                 TechnicalBug/Error</label
               >
               <label
                 ><input
                   type="checkbox"
                   name="reason"
-                  value="order_missing"
+                  value="Order Missing"
                 />Order Not Received</label
               >
               <label
@@ -148,8 +149,15 @@
                 ><input
                   type="checkbox"
                   name="reason"
-                  value="display_issue"
+                  value="Display Issue"
                 />Visual/Display Bug</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="reason"
+                  value="Others"
+                />Others</label
               >
             </div>
           </div>
@@ -159,7 +167,7 @@
             <textarea id="comments" name="comments" rows="10"></textarea>
           </div>
 
-          <a href="index.html" class="submit-button">Submit</a>
+          <button type="submit" class="submit-button">Submit</button>
         </form>
       </div>
     </section>
