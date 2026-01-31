@@ -547,6 +547,25 @@ h2 {
   resize: vertical;
 }
 
+#addressSection {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    clear: both;
+}
+
+#addressSection label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#addressSection textarea {
+    width: 100%;
+    min-height: 100px;
+    display: block;
+    box-sizing: border-box;
+}
+
 .submit-button {
   align-self: flex-start;
   padding: 10px 30px;

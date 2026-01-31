@@ -164,14 +164,18 @@ document.addEventListener("DOMContentLoaded", () => {
   displayCartItems();
 
   const shipToggle = document.getElementById("shippingToggle");
+  const addrSec = document.getElementById("addressSection");
+
+  if (addrSec) {
+    addrSec.style.display = "block"; 
+  }
+
   if (shipToggle) {
     shipToggle.addEventListener("change", () => {
-      const addrSec = document.getElementById("addressSection");
-      if (addrSec)
-        addrSec.style.display = shipToggle.checked ? "block" : "none";
       displayCartItems();
     });
   }
+
   document
     .getElementById("checkoutForm")
     ?.addEventListener("submit", handleCheckoutSubmit);
